@@ -4,8 +4,59 @@ MAYAN CRM is a bilingual CRM platform built for showcasing and managing governme
 It combines a modern React frontend with a Django REST API, PostgreSQL, Redis, and Docker-based local development.
 
 The project is designed to serve two goals:
-- a usable operations dashboard for contracts, finance, employees, and reports
+- a practical back-office dashboard for contracts, finance, employees, and reports
 - a polished portfolio-ready product demo for client presentations and exhibitions
+
+## Overview
+
+MAYAN CRM was designed as a modern business operations platform for managing:
+
+- government service requests
+- client companies and contracts
+- recurring subscriptions
+- financial vouchers and collections
+- employees, permissions, and internal operations
+- reports, exports, and public report sharing
+
+It supports both Arabic and English, includes seeded showcase data, and is structured to run locally with Docker or live on Render.
+
+## Product Preview
+
+### Dashboard
+
+![Dashboard preview](./docs/screenshots/dashboard.jpeg)
+
+### Companies
+
+![Companies preview](./docs/screenshots/companies.jpeg)
+
+### Government Services
+
+![Services preview](./docs/screenshots/services.jpeg)
+
+### Contracts
+
+![Contracts preview](./docs/screenshots/contracts.jpeg)
+
+### Subscriptions
+
+![Subscriptions preview](./docs/screenshots/subscriptions.jpeg)
+
+### Receipt Vouchers
+
+![Receipts preview](./docs/screenshots/payments.jpeg)
+
+### Payment Vouchers
+
+![Payments preview](./docs/screenshots/reports.jpeg)
+
+### Employee Management
+
+![Employees preview](./docs/screenshots/employees.jpeg)
+
+### Settings
+
+![Settings preview](./docs/screenshots/settings.jpeg)
 
 ## Highlights
 
@@ -19,6 +70,19 @@ The project is designed to serve two goals:
 - Reports with sharing, CSV export, and PDF export
 - Dockerized development environment
 - Render deployment support via Blueprint
+
+## Business Modules
+
+- Dashboard and KPIs
+- Company management
+- Government services tracking
+- Contracts management
+- Subscriptions management
+- Receipt vouchers
+- Payment vouchers
+- Employees and permissions
+- Reports and analytics
+- Account settings and localization
 
 ## Tech Stack
 
@@ -109,6 +173,20 @@ crm_project/
 - CSV export
 - PDF export
 
+## Screenshots Included In This Repository
+
+The following screenshots are bundled inside [`docs/screenshots/`](./docs/screenshots/):
+
+- dashboard
+- companies
+- services
+- contracts
+- subscriptions
+- employees
+- settings
+- reports
+- finance screens
+
 ## Demo Login
 
 Local and demo deployments can be seeded with an admin account.
@@ -172,6 +250,18 @@ Deploy flow:
 4. Select this repository
 5. Fill required environment variables
 6. Deploy the API, frontend, and database
+
+## Portfolio Value
+
+This project demonstrates:
+
+- full-stack architecture with Django and React
+- API design and frontend integration
+- role-based admin workflows
+- bilingual user experience
+- Docker-based development workflow
+- cloud deployment with Render
+- product presentation quality for portfolio and client demos
 
 ## Testing
 
