@@ -36,7 +36,7 @@ services:
       - key: DEMO_ADMIN_EMAIL
         value: "admin@example.com"
 
-  - type: static
+  - type: web
     name: mayan-crm-web
     runtime: static
     plan: free
