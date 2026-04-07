@@ -22,40 +22,38 @@ It supports both Arabic and English, includes seeded showcase data, and is struc
 
 ## Product Preview
 
-### Dashboard
+### Executive Dashboard
 
 ![Dashboard preview](./docs/screenshots/dashboard.jpeg)
 
-### Companies
+### Core Operations
 
+#### Companies
 ![Companies preview](./docs/screenshots/companies.jpeg)
 
-### Government Services
-
+#### Government Services
 ![Services preview](./docs/screenshots/services.jpeg)
 
-### Contracts
-
+#### Contracts
 ![Contracts preview](./docs/screenshots/contracts.jpeg)
 
-### Subscriptions
-
+#### Subscriptions
 ![Subscriptions preview](./docs/screenshots/subscriptions.jpeg)
 
-### Receipt Vouchers
+### Finance
 
+#### Receipt Vouchers
 ![Receipts preview](./docs/screenshots/payments.jpeg)
 
-### Payment Vouchers
-
+#### Payment Vouchers
 ![Payments preview](./docs/screenshots/reports.jpeg)
 
-### Employee Management
+### Admin Experience
 
+#### Employee Management
 ![Employees preview](./docs/screenshots/employees.jpeg)
 
-### Settings
-
+#### Settings
 ![Settings preview](./docs/screenshots/settings.jpeg)
 
 ## Highlights
@@ -172,20 +170,6 @@ crm_project/
 - public sharing links
 - CSV export
 - PDF export
-
-## Screenshots Included In This Repository
-
-The following screenshots are bundled inside [`docs/screenshots/`](./docs/screenshots/):
-
-- dashboard
-- companies
-- services
-- contracts
-- subscriptions
-- employees
-- settings
-- reports
-- finance screens
 
 ## Demo Login
 
