@@ -1,0 +1,36 @@
+# Python virtualenv - causes "invalid file request" due to symlinks
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Frontend build artifacts
+frontend/node_modules
+frontend/dist
+frontend/.vite
+
+# Django local files
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Environment & secrets
+.env.local
+.env.*.local
+
+# Version control
+.git
+.gitignore
+
+# Editor & OS
+.DS_Store
+*.swp
+*.swo
+.idea
+.vscode
+
+# Docker files themselves
+docker-compose.override.yml

@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  api:
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app          # hot reload في التطوير
+      - media_data:/app/media
+    environment:
+      DEBUG: "True"
+
+  celery_worker:
+    command: celery -A config worker -l debug --autoreload
